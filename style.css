@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    height: 92px;
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: #CF2B2B;
+
+}
+.rodape {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+.botao-confirmar {
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #CBCBCB;
+}
+.conteudo {
+    width: 100%;
+    height: 842px;
+    margin-top: 92px;
+    margin-bottom: 92px;
+    background-color: #E5E5E5;
+}
