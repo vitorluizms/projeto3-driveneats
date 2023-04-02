@@ -41,5 +41,6 @@ function realizarPedido (tipo1, tipo2, tipo3) {
     Nome: ${nome}
     Endereço: ${endereco}`)
 
+    
     window.open("https://wa.me/55082998262078?text=" + texto)
 }
