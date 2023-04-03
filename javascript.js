@@ -33,12 +33,12 @@ function realizarPedido (tipo1, tipo2, tipo3) {
     total= Number(valor_food) + Number(valor_drink) + Number(valor_dessert);
     total= total.toFixed(2)
     texto= encodeURIComponent(`Olá, gostaria de fazer o pedido
-    -Prato: ${food}
-    -Bebida: ${drink}
-    -Sobremesa: ${dessert}
-    Total: R$ ${total}
+    -Prato: ${food} \n
+    -Bebida: ${drink} \n
+    -Sobremesa: ${dessert} \n
+    Total: R$ ${total} \n
     
-    Nome: ${nome}
+    Nome: ${nome} \n
     Endereço: ${endereco}`)
 
     
